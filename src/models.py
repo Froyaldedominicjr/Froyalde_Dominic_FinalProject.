@@ -19,7 +19,7 @@ class Exercise:
         self.reps = reps
         self.weight = weight
 
-    @property
+    property
     def total_volume(self) -> float:
         Calculates the total volume for the exercise.
 
